@@ -1,0 +1,162 @@
+body{
+    font-family: 'Fredoka One', cursive;
+}
+
+.about-me{
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(45deg, #D3CCE3, #E9E4F0);
+}
+
+@media screen and (min-width: 755px){
+    .light-img{
+        width: 30vw;
+    }
+}
+
+
+
+.dark-img{
+    position: absolute;
+    bottom: 0;
+    height: 20vw;
+    width: 100%;
+}
+.light-img{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+}
+
+.pink-img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20vw;
+    margin-left: -4px;
+}
+
+.about-me-greeting{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+}
+
+.about-me-text{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 37%;
+}
+
+.arrow{
+    position: absolute;
+    left: 47%;
+    top: 50%;
+}
+
+.internships{
+    position: relative;
+    height: 120vh;
+    margin-top: -2px;
+    background-image: linear-gradient(to bottom, #220b28ff, rgb(114, 114, 235));
+}
+
+.internship-header{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+
+
+.projects{
+    height: 100vh;
+    background-image: linear-gradient(#02244aff, #220b28ff);
+}
+
+.project-header{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.tech-stack{
+    position: absolute;
+    left: 2%; 
+    margin-top: 30%;
+}
+
+.tech-stack-text{
+    position: absolute;
+    margin-top: 20%;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    left: 50%;
+    transform: translateX(-10%);
+}
+
+.dark-grass{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.light-grass{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.mountain{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40vw;
+    height: 100%;
+}
+
+.climber-tent{
+    position: absolute;
+    bottom: 10%;
+    left: 8%;
+    width: 20vw;
+    cursor: pointer;
+}
+
+.rtg-tent{
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+    width: 20vw;
+    cursor: pointer;
+}
+
+.wcl-tent{
+    position: absolute;
+    bottom: 5%;
+    right: 8%;
+    width: 20vw;
+    cursor: pointer;
+}
+
+.logicnxt-tent{
+    position: absolute;
+    bottom: 10%;
+    right: 30%;
+    width: 20vw;
+    cursor: pointer;
+}
+
+.internship-text{
+    position: absolute;
+    font-size: 28px;
+    color: white;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+}
